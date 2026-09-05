@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hiro Marker สำหรับ AR Washing Machine</title>
+<style>
+ body{font-family:Arial,sans-serif;text-align:center;background:#eee;margin:0;padding:20px}
+ .page{background:#fff;max-width:760px;margin:auto;padding:25px;box-sizing:border-box}
+ img{width:min(90vw,600px);display:block;margin:20px auto;border:30px solid white}
+ button{font-size:18px;padding:12px 22px;border:0;border-radius:10px;cursor:pointer}
+ @media print{button,.note{display:none}.page{max-width:none}.marker{width:180mm!important;border:20mm solid white}}
+</style>
+</head>
+<body>
+<div class="page">
+<h1>AR Washing Machine — Hiro Marker</h1>
+<p class="note">พิมพ์หน้านี้บนกระดาษ A4 แล้วใช้กล้องมือถือส่อง Marker</p>
+<img class="marker"
+ src="https://raw.githubusercontent.com/AR-js-org/AR.js/master/three.js/examples/marker-training/examples/hiro.png"
+ alt="Hiro Marker">
+<button onclick="window.print()">🖨️ พิมพ์ Marker</button>
+<p class="note">หมายเหตุ: ต้องเปิด index.html ผ่าน HTTPS หรือ localhost เพื่อให้กล้องทำงานได้ในเบราว์เซอร์สมัยใหม่</p>
+</div>
+</body>
+</html>
